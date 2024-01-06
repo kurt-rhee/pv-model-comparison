@@ -1,0 +1,1 @@
+- PVsyst:  https://forum.pvsyst.com/topic/120-altitude-correction-factor-for-inverters/
