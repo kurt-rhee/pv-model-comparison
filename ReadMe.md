@@ -4,8 +4,9 @@ The table is open source and any user or software company can submit a pull requ
 
 
 
-| **Category** | Model Name | **PlantPredict** | **Uncertainty** | **PVLIB** | **PVSyst** | Uncertainty | **PVLIB** | **Comments** |
-| ---------- | ------------- | ------------- | ------------ | ------ | -------- | ---- | ---- | ---- |
+|  |  | **PlantPredict** |  |  | **PVSyst** |  |  |  |
+| ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- |
+| **Category** | **Model Type** | **Model** | **Uncertainty** | **PVLIB** | **Model** | **Uncertainty** | **PVLIB** | **Comments** |
 | Solar Position Algorithm | Solar Position Algorithm | NREL | 0.0003&deg; | &#9745; | Proprietary | ~0.08&deg; | &#9744; |  |
 | Site Specific Models | Site Air Pressure for Altitude Correction of Inverters |  |  |  | None | N/A | &#9744; |  |
 | Spectral | Relative Humidity from Dew Point | August-Roche-Magnus |  | &#9744; | None | N/A | &#9744; |  |
@@ -15,7 +16,6 @@ The table is open source and any user or software company can submit a pull requ
 |  | Cd-Te | First Solar v2.0 |  | &#9745; | First Solar v2.0 |  | &#9745; |  |
 | Transposition |  | Perez w/ coefficients |  | &#9745; | Perez w/out coefficients |  | &#9745; | Circumsolar as direct not in pvlib |
 | Retro-Transposition |  | GTI-Dirint |  | &#9745 |  |  |  |  |
-|  |  |  |  |  |  |  |  |  |
 
 # Acknowledgements
 
