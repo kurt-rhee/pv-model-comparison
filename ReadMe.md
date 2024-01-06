@@ -2,7 +2,7 @@
 | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- |
 |  |  | **PlantPredict** |  |  |  | **PVSyst** |  |  |  |
 | **Model Category** | **Model** | **Model** | **Uncertainty** | PVLIB |  | **Model** | Uncertainty |  |  |
-| Solar Position Algorithm | Solar Position Algorithm | NREL | 0.0003&deg; |  [ x ] |  | Proprietary | Some few arc-minutes |  |  |
+| Solar Position Algorithm | Solar Position Algorithm | NREL | 0.0003&deg; | &#9745; |  | Proprietary | "Some few arc-minutes" |  |  |
 |  |  |  |  |  |  |  |  |  |  |
 | Spectral | Relative Humidity from Dew Point | August-Roche-Magnus |  |  |  |  |  |  |  |
 |  | Precipitable Water from Relative Humidity |  |  |  |  |  |  |  |  |
