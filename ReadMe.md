@@ -5,7 +5,7 @@ The table is open source and any user or software company can submit a pull requ
 
 
 | **Category** | **Model Name** | **PlantPredict** | **Uncertainty** | **PVLIB** | **PVSyst** | Uncertainty | **PVLIB** | **Comments** |
-| ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- |
+| ---------- | ------------- | ------------- | ------------ | ------ | -------- | ---- | ---- | ---- |
 | Solar Position Algorithm | Solar Position Algorithm | NREL | 0.0003&deg; | &#9745; | Proprietary | "Some few arc-minutes" | &#9744; |  |
 | Site Specific Models | Site Air Pressure for Altitude Correction of Inverters |  |  |  | None | N/A | &#9744; |  |
 | Spectral | Relative Humidity from Dew Point | August-Roche-Magnus |  | &#9744; | None | N/A | &#9744; |  |
