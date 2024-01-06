@@ -7,10 +7,10 @@ The table is open source and any user or software company can submit a pull requ
 |  |  | **PlantPredict** |  |  | **PVSyst** |  |  |  |
 | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- |
 | **Category** | **Model_Type** | **Model** | **Uncertainty** | **PVLIB** | **Model** | **Uncertainty** | **PVLIB** | **Comments** |
-| Solar Position Algorithm | Solar_Position_Algorithm | NREL | 0.0003&deg; | &#9745; | Proprietary | ~0.08&deg; | &#9744; |  |
-| Site Specific Models | Site Air Pressure for Altitude Correction of Inverters |  |  |  | None | N/A | &#9744; |  |
+| Solar_Position_Algorithm | Solar_Position_Algorithm | NREL | 0.0003&deg; | &#9745; | Proprietary | ~0.08&deg; | &#9744; |  |
+| Site_Specific_Models | Site_Air_Pressure for Altitude Correction of Inverters |  |  |  | None | N/A | &#9744; |  |
 | Spectral | Relative Humidity from Dew Point | August-Roche-Magnus |  | &#9744; | None | N/A | &#9744; |  |
-|  | Precipitable Water from Relative Humidity |  |  |  | ? |  |  |  |
+|  | Precipitable_Water from Relative_Humidity |  |  |  | ? |  |  |  |
 |  | c-Si | First Solar v2.0 |  | &#9745; | Crest |  | &#9744; |  |
 |  | a-Si | First Solar v2.0 |  | &#9745; | Sandia |  | &#9745; |  |
 |  | Cd-Te | First Solar v2.0 |  | &#9745; | First Solar v2.0 |  | &#9745; |  |
