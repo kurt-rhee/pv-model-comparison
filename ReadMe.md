@@ -17,3 +17,10 @@ The table is open source and any user or software company can submit a pull requ
 | Transposition |  | Perez w/ coefficients  |  | &#9745; | Perez w/out coefficients |  | &#9745; | Implementation in software allow for allocation of circumsolar as direct which is not available in pvlib. |
 | Retro-Transposition |  |  |  |  |  |  |  |  |
 |  |  |  |  |  |  |  |  |  |
+
+# Acknowledgements
+
+
+
+![[pvlib_logo.png]]
+William F. Holmgren, Clifford W. Hansen, and Mark A. Mikofski. “pvlib python: a python package for modeling solar energy systems.” Journal of Open Source Software, 3(29), 884, (2018). [https://doi.org/10.21105/joss.00884](https://doi.org/10.21105/joss.00884)
