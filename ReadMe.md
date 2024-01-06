@@ -11,11 +11,11 @@ The table is open source and any user or software company can submit a pull requ
 | Site Specific Models | Site Air Pressure for Altitude Correction of Inverters |  |  |  | None | N/A | &#9744; |  |
 | Spectral | Relative Humidity from Dew Point | August-Roche-Magnus |  | &#9744; | None | N/A | &#9744; |  |
 |  | Precipitable Water from Relative Humidity |  |  |  | ? |  |  |  |
-|  | Spectral Correction c-Si | First Solar v2.0 |  |  | Crest |  |  |  |
-|  | Spectral Correction a-Si | First Solar v2.0 |  |  | Sandia |  |  |  |
-|  | Spectral Correction Cd-Te | First Solar v2.0 |  |  | First Solar v2.0 |  |  |  |
-| Transposition |  | Perez w/ coefficients  |  | &#9745; | Perez w/out coefficients |  | &#9745; | Implementation in software allow for allocation of circumsolar as direct which is not available in pvlib. |
-| Retro-Transposition |  |  |  |  |  |  |  |  |
+|  | c-Si | First Solar v2.0 |  | &#9745 | Crest |  |  |  |
+|  |  a-Si | First Solar v2.0 |  | &#9745 | Sandia |  |  |  |
+|  | Cd-Te | First Solar v2.0 |  | &#9745 | First Solar v2.0 |  |  |  |
+| Transposition |  | Perez w/ coefficients  |  | &#9745; | Perez w/out coefficients |  | &#9745; | Circumsolar as direct not in pvlib |
+| Retro-Transposition |  | GTI-Dirint |  | &#9745 |  |  |  |  |
 |  |  |  |  |  |  |  |  |  |
 
 # Acknowledgements
