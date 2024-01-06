@@ -1,0 +1,1 @@
+PVSyst:  https://www.pvsyst.com/help/solar_geometry.htm

@@ -142,7 +142,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 226.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -156,7 +156,14 @@
   },
   "active": "2b7d638e2528f032",
   "lastOpenFiles": [
+    "spectral_models/Others.md",
     "ReadMe.md",
+    "spectral_models/August-Roche-Magnus.pdf",
+    "August-Roche-Magnus",
+    "spectral_models/August-Roche-Magnus",
+    "solar_position_algorithms/Others.md",
+    "spectral_models",
+    "solar_position_algorithms/NREL.pdf",
     "solar_position_algorithms"
   ]
 }
