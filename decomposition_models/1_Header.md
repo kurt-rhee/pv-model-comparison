@@ -1,0 +1,6 @@
+- PlantPredict
+	- Dirint
+		- 
+- PVSyst
+	- Erbs
+		- https://www.pvsyst.com/help/index.html?models_meteo_diffuse_irradiance.htm
