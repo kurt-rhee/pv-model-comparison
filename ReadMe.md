@@ -3,13 +3,13 @@ The following table is a comparison of different underlying models used in diffe
 
 The table is open source and any user or software company can submit a pull request to include their information in this list.  If a free reference exists for the underlying model, the PDF is provided in a folder that matches the model category.  If no reference exists (especially for proprietary software algorithms) then the best known reference is provided in the "Other" markdown file instead.  Not every single model can be found in the table.  Some sub-models are omitted such as the calculation of delta T in the solar position algorithm in order to save space.  If the performance modeling software has multiple models for a given model type, only the most commonly used models are included.
 
-Accuracy is presented in terms of MBD, RMSD, SD, R^2 or Uncertainty depending on what is reported in the underlying paper.
+Accuracy is presented in terms of mean bias difference (MBD), root mean squared difference (RMSD), standard deviation (SD), R squared (R2) or Uncertainty (U) depending on what is reported in the underlying paper.
 
 
 |  |  | **PlantPredict** |  |  | **PVSyst** |  |  |  |
 | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- |
 | **Category** | **Model_Type** | **Model** | **Accuracy** | **PVLIB** | **Model** | **Accuracy** | **PVLIB** | **Comments** |
-| Solar_Position_Algorithm | Solar_Position_Algorithm | NREL | Uncertainty:  0.0003&deg; | &#9745; | Proprietary | -/-/-/~0.08&deg; | &#9744; |  |
+| Solar_Position_Algorithm | Solar_Position_Algorithm | NREL | - U:  0.0003&deg; | &#9745; | Proprietary | - U:  0.08&deg; | &#9744; |  |
 | Time Series | Minimum Time Step | 1 minute |  | N/A | 1 hour |  | N/A |  |
 | Mounting | Rotation Angle | 2D Flat + Sloped |  |  | 2D Flat |  |  |  |
 |  | Diffuse Optimization | 3 Parameter | N/A | N/A | 1 Parameter | N/A | N/A | Diffuse Optimization not in pvlib |
