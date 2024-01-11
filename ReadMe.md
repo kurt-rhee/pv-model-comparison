@@ -8,7 +8,7 @@ Accuracy is presented in terms of mean bias difference (MBD), root mean squared 
 
 |  |  | **PlantPredict** |  |  | **PVSyst** |  |  |  |
 | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- |
-| **Category** | **Model_Type** | **Model** | **Accuracy** | **PVLIB** | **Model** | **Accuracy** | **PVLIB** | **Comments** |
+| **Category** | **Model_Type** | **Model** | **Published_Accuracy** | **PVLIB** | **Model** | **Published_Accuracy** | **PVLIB** | **Comments** |
 | Solar_Position_Algorithm | Solar_Position_Algorithm | NREL | - U:  0.0003&deg; | &#9745; | Proprietary | - U:  0.08&deg; | &#9744; |  |
 | Time Series | Minimum Time Step | 1 minute |  | N/A | 1 hour |  | N/A |  |
 | Mounting | Rotation Angle | 2D Flat + Sloped |  |  | 2D Flat |  |  |  |
