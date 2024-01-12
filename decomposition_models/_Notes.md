@@ -1,5 +1,18 @@
-- PlantPredict
-	- Dirint
-- PVSyst
-	- Erbs
-		- https://www.pvsyst.com/help/index.html?models_meteo_diffuse_irradiance.htm
+- **PlantPredict**
+	- Source
+		- PVLib:  https://pvlib-python.readthedocs.io/en/stable/reference/generated/pvlib.irradiance.dirint.html
+	- History
+		- Direct Integration Simulation Code (DISC) (Maxwell 1987) calculates DNI and DHI from GHI
+		- DIRINT (Perez 1992) improves upon DISC
+		- DIRINDEX (Ineichen 2002) improves upon DIRINT, but requires additional inputs
+		- GTI-DIRINT (Marion 2015) modifies DIRINT to in order to calculate horizontal components from tilted irradiance
+- **PVSyst**
+	-  Erbs (Erbs 1982)
+	- Source
+		- Reference:  
+			- https://www.pvsyst.com/help/models_meteo_diffuse_irradiance.htm
+		- PVLib: 
+			- https://pvlib-python.readthedocs.io/en/stable/reference/generated/pvlib.irradiance.erbs.html
+	- History
+		- Erbs (Erbs 1982)
+		- Erbs-Driesse (Driesse 2024)

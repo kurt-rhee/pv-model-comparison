@@ -1,4 +1,13 @@
 - **PlantPredict**
-	- Uses GTI-Dirint.  
-- **PVsyst**
-	- Uses Inverse Hay
+	-  Model:  GTI-DIRINT
+	- Source
+		- PVLib:  https://pvlib-python.readthedocs.io/en/stable/reference/generated/pvlib.irradiance.gti_dirint.html
+	- History
+		- Direct Integration Simulation Code (DISC) (Maxwell 1987) calculates DNI and DHI from GHI
+		- DIRINT (Perez 1992) improves upon DISC
+		- DIRINDEX (Ineichen 2002) improves upon DIRINT, but requires additional inputs
+		- GTI-DIRINT (Marion 2015) modifies DIRINT to in order to calculate horizontal components from tilted irradiance
+- **PVSyst**
+	- Model:  Inverse Hay
+	- Source
+		- https://forum.pvsyst.com/topic/1907-unreported-change-in-reverse-transposition-algorithm-pvsyst-v678-to-v679/
