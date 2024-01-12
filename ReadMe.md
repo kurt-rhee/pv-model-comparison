@@ -6,40 +6,40 @@ The table is open source and any user or software company can submit a pull requ
 Accuracy is presented in terms of mean bias difference (MBD), root mean squared difference (RMSD), standard deviation (SD), R squared (R2) or Uncertainty (U) depending on what is reported in the underlying paper.
 
 
-|  |  | **PlantPredict** |  |  | **PVSyst** |  |  |  |
-| ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- |
-| **Category** | **Model_Type** | **Model** | **Published_Accuracy** | **PVLIB** | **Model** | **Published_Accuracy** | **PVLIB** | **Comments** |
-| Solar_Position_Algorithm | Solar_Position_Algorithm | NREL | - U:  0.0003&deg; | &#9745; | Proprietary | - U:  0.08&deg; | &#9744; | None |
-| Time Series | Minimum Time Step | 1 minute |  |  | 1 hour |  |  | None |
-| Tracking | Astronomical Tracking | Marion & Dobos |  | &#9745; | 2D Flat |  |  | None |
-|  | Slope Aware Backtracking | Anderson & Mikofski |  | &#9745; | None |  |  | None |
-|  | Terrain Aware Backtracking | None |  |  | None |  |  | Terrain Backtracking not in pvlib |
-|  | Diffuse Optimization | 3 Parameter |  |  | 1 Parameter |  |  | Diffuse Optimization not in pvlib |
-|  | Wind Stow | None |  |  | Proprietary |  |  | Wind Stow not in pvlib |
-| Irradiance | Decomposition | Dirint | - MBD: -3 W/m<sup>2</sup><br>- RMSD: 74<br>- SD:  74 | &#9745; | Erbs | - MBD:  -17<br>- RMSD: 88<br>- SD: 87 | &#9745; | Error reported at hourly interval |
-|  | Transposition | Perez w/ coefficients |  | &#9745; | Perez w/out coefficients |  | &#9745; | Circumsolar as direct not in pvlib |
-|  | Retro-Transposition | GTI-Dirint (Reverse Perez) |  | &#9745; | Reverse Hay |  |  |  |
-| Optical | IAM | Physical |  | &#9745; | Fresnel |  | &#9744; |  |
-|  | Soiling | Time-Step Level |  |  | Monthly |  |  |  |
-|  | Horizon Shading (Far Shading) | Sub-TimeStep |  | &#9744; |  |  |  |  |
-|  | Near Shading | Polygon Clipping |  |  | Polygon Clipping |  |  |  |
-|  | Bifacial |  |  |  |  |  |  |  |
-| Spectral | Relative_Humidity from Dew_Point | August-Roche-Magnus |  | &#9744; | None | N/A | &#9744; |  |
-|  | Precipitable_Water from Relative_Humidity |  |  |  |  |  | &#9744; |  |
-|  | c-Si | First Solar v2.0 |  | &#9745; | Crest |  | &#9744; |  |
-|  | a-Si | First Solar v2.0 |  | &#9745; | Sandia |  | &#9745; |  |
-|  | Cd-Te | First Solar v2.0 |  | &#9745; | First Solar v2.0 |  | &#9745; |  |
-| DC | Cell Thermal Model | Modified Faiman |  |  | Modified Faiman |  |  |  |
-|  | Irradiance Level |  |  |  |  |  |  |  |
-|  | Diode Model | Single Diode |  |  | Single Diode |  |  |  |
-|  | Mismatch |  |  |  |  |  |  |  |
-|  | Wiring | % at STC |  |  | Ohmic |  |  |  |
-|  | Degradation | % |  |  | % |  |  |  |
-| AC | Inverter Off MPP | Proprietary |  | &#9744; | Proprietary |  |  | None |
-|  | Inverter Efficiency | Sandia |  | &#9745; |  |  |  |  |
-|  | Air Pressure for Altitude Correction of Inverters |  |  |  | None |  | &#9744; |  |
-|  | Transformer |  |  |  |  |  |  |  |
-|  | Wiring | % at STC |  |  | Ohmic |  |  | None |
+|  |  | **PlantPredict** |  |  | **PVSyst** |  |  |
+| ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- |
+| **Category** | **Model_Type** | **Model** | **Published_Accuracy** | **PVLIB** | **Model** | **Published_Accuracy** | **PVLIB** |
+| Solar_Position_Algorithm | Solar_Position_Algorithm | NREL | - U:  0.0003&deg; | &#9745; | Proprietary | - U:  0.08&deg; |  |
+| Time Series | Minimum Time Step | 1 minute |  |  | 1 hour |  |  |
+| Tracking | Astronomical Tracking | Marion & Dobos |  | &#9745; | Proprietary |  |  |
+|  | Slope Aware Backtracking | Anderson & Mikofski |  | &#9745; | Proprietary |  |  |
+|  | Terrain Aware Backtracking | None |  |  | None |  |  |
+|  | Diffuse Optimization | 3 Parameter |  |  | 1 Parameter |  |  |
+|  | Wind Stow | None |  |  | Proprietary |  |  |
+| Irradiance | Decomposition | Dirint | - MBD: -3 W/m<sup>2</sup><br>- RMSD: 74 W/m<sup>2</sup><br>- SD:  74 W/m<sup>2</sup> | &#9745; | Erbs | - MBD:  -17 W/m<sup>2</sup><br>- RMSD: 88 W/m<sup>2</sup><br>- SD: 87 W/m<sup>2</sup> | &#9745; |
+|  | Transposition | Perez w/ coefficients | - MBD: -1%<br>- RMSD: 8% | &#9745; | Perez w/out coefficients | - MBD: -1%<br>- RMSD: 8% | &#9745; |
+|  | Retro-Transposition | GTI-Dirint (Reverse Perez) |  | &#9745; | Reverse Hay |  |  |
+| Optical | IAM | Physical |  | &#9745; | Fresnel |  |  |
+|  | Soiling | Time-Step Level |  |  | Monthly |  |  |
+|  | Horizon Shading (Far Shading) | Sub-TimeStep |  |  |  |  |  |
+|  | Near Shading | Polygon Clipping |  |  | Polygon Clipping |  |  |
+|  | Bifacial |  |  |  | Proprietary |  |  |
+| Spectral | Relative_Humidity from Dew_Point | August-Roche-Magnus |  |  | None | N/A |  |
+|  | Precipitable_Water from Relative_Humidity |  |  |  |  |  |  |
+|  | c-Si | First Solar v2.0 |  | &#9745; | Crest |  |  |
+|  | a-Si | First Solar v2.0 |  | &#9745; | Sandia |  | &#9745; |
+|  | Cd-Te | First Solar v2.0 |  | &#9745; | First Solar v2.0 |  | &#9745; |
+| DC | Cell Thermal Model | Modified Faiman |  |  | Modified Faiman |  |  |
+|  | Irradiance Level |  |  |  |  |  |  |
+|  | Diode Model | Single Diode |  |  | Single Diode |  |  |
+|  | Mismatch |  |  |  |  |  |  |
+|  | Wiring | % at STC |  |  | Ohmic |  |  |
+|  | Degradation | % |  |  | % |  |  |
+| AC | Inverter Off MPP | Proprietary |  |  | Proprietary |  |  |
+|  | Inverter Efficiency | Sandia |  | &#9745; |  |  |  |
+|  | Air Pressure for Altitude Correction of Inverters |  |  |  | None |  | &#9744; |
+|  | Transformer |  |  |  |  |  |  |
+|  | Wiring | % at STC |  |  | Ohmic |  |  |
 
 # Acknowledgements
 
