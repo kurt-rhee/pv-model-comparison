@@ -1,7 +1,9 @@
 - **PlantPredict**
 	-  Model:  GTI-DIRINT
+	- Uncertainty reported from PDF paper included in this repository folder
 	- Source
 		- PVLib:  https://pvlib-python.readthedocs.io/en/stable/reference/generated/pvlib.irradiance.gti_dirint.html
+		- GTI-Driesse (2024) file located in folder
 	- History
 		- Direct Integration Simulation Code (DISC) (Maxwell 1987) calculates DNI and DHI from GHI
 		- DIRINT (Perez 1992) improves upon DISC

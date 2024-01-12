@@ -1,0 +1,8 @@
+- **PlantPredict**
+	- Model:  Simple Statistical
+	- References:
+		- https://terabase.atlassian.net/servicedesk/customer/portal/3/article/1290830275
+- **PVSyst**
+	- Model:  Detailed
+	- Referenes:
+		- https://www.pvsyst.com/help/mismatch_loss.htm

@@ -1,0 +1,8 @@
+- **PlantPredict**
+	- Model:  NREL Bifacial View Factor
+	- References:
+		- https://terabase.atlassian.net/servicedesk/customer/portal/3/article/1289978371
+- **PVSyst**
+	- Model:  Proprietary
+	- References:
+		- Unknown

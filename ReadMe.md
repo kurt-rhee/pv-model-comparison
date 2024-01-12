@@ -19,12 +19,12 @@ Accuracy is presented in terms of mean bias difference (MBD), root mean squared 
 |  | Wind Stow | None |  |  | Proprietary |  |  |
 | Irradiance | Decomposition | Dirint | - MBD: -3 W/m<sup>2</sup><br>- RMSD: 74 W/m<sup>2</sup> | &#9745; | Erbs | - MBD:  -17 W/m<sup>2</sup><br>- RMSD: 88 W/m<sup>2</sup> | &#9745; |
 |  | Transposition | Perez w/ coefficients | - MBD: -1%<br>- RMSD: 8% | &#9745; | Perez w/out coefficients | - MBD: -1%<br>- RMSD: 8% | &#9745; |
-|  | Retro-Transposition | GTI-Dirint (Reverse Perez) |  | &#9745; | Reverse Hay |  |  |
+|  | Retro-Transposition | GTI-Dirint  | - MBD: 0.0 W/m<sup>2</sup><br>- RMSD: 6.4 W/m<sup>2</sup>  | &#9745; | Reverse Hay | - MBD: Unknown<br>- RMSD: Unknown |  |
 | Optical | IAM | Physical |  | &#9745; | Fresnel |  |  |
 |  | Soiling | Time-Step Level |  |  | Monthly |  |  |
 |  | Horizon Shading (Far Shading) | Sub-TimeStep |  |  |  |  |  |
 |  | Near Shading | Polygon Clipping |  |  | Polygon Clipping |  |  |
-|  | Bifacial |  |  |  | Proprietary |  |  |
+|  | Bifacial | NREL BifacialVF |  |  | Proprietary |  |  |
 | Spectral | Relative_Humidity from Dew_Point | August-Roche-Magnus |  |  | None | N/A |  |
 |  | Precipitable_Water from Relative_Humidity |  |  |  |  |  |  |
 |  | c-Si | First Solar v2.0 |  | &#9745; | Crest |  |  |
@@ -33,7 +33,7 @@ Accuracy is presented in terms of mean bias difference (MBD), root mean squared 
 | DC | Cell Thermal Model | Modified Faiman |  |  | Modified Faiman |  |  |
 |  | Irradiance Level |  |  |  |  |  |  |
 |  | Diode Model | Single Diode |  |  | Single Diode |  |  |
-|  | Mismatch |  |  |  |  |  |  |
+|  | Mismatch | Simple Statistical |  |  | Detailed |  |  |
 |  | Wiring | % at STC |  |  | Ohmic |  |  |
 |  | Degradation | % |  |  | % |  |  |
 | AC | Inverter Off MPP | Proprietary |  |  | Proprietary |  |  |
