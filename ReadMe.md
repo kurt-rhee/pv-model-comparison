@@ -14,9 +14,10 @@ Accuracy is presented in terms of mean bias difference (MBD), root mean squared 
 | Tracking | Astronomical Tracking | Marion & Dobos |  | &#9745; | Proprietary |  |  |
 |  | Slope Aware Backtracking | Anderson & Mikofski |  | &#9745; | Proprietary |  |  |
 |  | Terrain Aware Backtracking | None |  |  | None |  |  |
+|  | Custom Backtracking | Yes |  |  | No |  |  |
 |  | Diffuse Optimization | 3 Parameter |  |  | 1 Parameter |  |  |
 |  | Wind Stow | None |  |  | Proprietary |  |  |
-| Irradiance | Decomposition | Dirint | - MBD: -3 W/m<sup>2</sup><br>- RMSD: 74 W/m<sup>2</sup><br>- SD:  74 W/m<sup>2</sup> | &#9745; | Erbs | - MBD:  -17 W/m<sup>2</sup><br>- RMSD: 88 W/m<sup>2</sup><br>- SD: 87 W/m<sup>2</sup> | &#9745; |
+| Irradiance | Decomposition | Dirint | - MBD: -3 W/m<sup>2</sup><br>- RMSD: 74 W/m<sup>2</sup> | &#9745; | Erbs | - MBD:  -17 W/m<sup>2</sup><br>- RMSD: 88 W/m<sup>2</sup> | &#9745; |
 |  | Transposition | Perez w/ coefficients | - MBD: -1%<br>- RMSD: 8% | &#9745; | Perez w/out coefficients | - MBD: -1%<br>- RMSD: 8% | &#9745; |
 |  | Retro-Transposition | GTI-Dirint (Reverse Perez) |  | &#9745; | Reverse Hay |  |  |
 | Optical | IAM | Physical |  | &#9745; | Fresnel |  |  |
@@ -36,8 +37,8 @@ Accuracy is presented in terms of mean bias difference (MBD), root mean squared 
 |  | Wiring | % at STC |  |  | Ohmic |  |  |
 |  | Degradation | % |  |  | % |  |  |
 | AC | Inverter Off MPP | Proprietary |  |  | Proprietary |  |  |
-|  | Inverter Efficiency | Sandia |  | &#9745; |  |  |  |
-|  | Air Pressure for Altitude Correction of Inverters |  |  |  | None |  | &#9744; |
+|  | Inverter Efficiency | Sandia |  | &#9745; | Quadratic Interpolation |  |  |
+|  | Air Pressure for Altitude Correction of Inverters | Yes |  |  | No |  | &#9744; |
 |  | Transformer |  |  |  |  |  |  |
 |  | Wiring | % at STC |  |  | Ohmic |  |  |
 

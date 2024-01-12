@@ -1,0 +1,4 @@
+- **PlantPredict**
+	- Uses GTI-Dirint.  
+- **PVsyst**
+	- Uses Inverse Hay
