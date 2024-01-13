@@ -10,7 +10,7 @@ The following table is a comparison of the underlying models used in different s
 - **Metric**:  Accuracy is presented in terms of the following metrics depending on what is stated in the cited paper:
 	- mean bias difference (MBD),
 	- root mean squared difference (RMSD),
-	- maximum difference (MD),
+	- maximum difference (MxD),
 	- standard deviation (SD),
 	- R squared (R2)
 	- Uncertainty (U)
@@ -36,7 +36,7 @@ The table is open source and any user or software company can submit a pull requ
 | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- |
 | **Category** | **Model_Type** | **Model** | **Metric** | **Accuracy** | **PVLIB** | **Model** | **Metric** | **Accuracy** | **PVLIB** |
 | Solar_Position_Algorithm | Solar_Position_Algorithm | NREL | U | 0.0003&deg; | &#9745; | Proprietary | U | 0.08&deg; |  |
-| Time Series | Minimum Time Step | 1 minute | MD | ~< 0.4% |  | 1 hour | MD | ~< 1.8% |  |
+| Time Series | Minimum Time Step | 1 minute | MxD | ~< 0.4% |  | 1 hour | MxD | ~< 1.8% |  |
 | Tracking | Astronomical Tracking | Marion & Dobos | - | - | &#9745; | Proprietary | - | - |  |
 |  | Slope Aware Backtracking | Anderson & Mikofski | - | - | &#9745; | Proprietary | - | - |  |
 |  | Terrain Aware Backtracking | None |  |  |  | None |  |  |  |
