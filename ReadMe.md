@@ -15,23 +15,16 @@ The following table is a comparison of the underlying models used in different s
 	- R squared (R2)
 	- Uncertainty (U)
 	- Model is precise (-)
+	- If the cell in the table is blank, then the accuracy is unknown.  If you know the accuracy of a given model, please see the "Contributing" section which can be found after the table.
 - **Accuracy**:  
 	- If an accuracy value is present in the table, then the accompanying publication is included in the repository folder structure.  
 	- Published accuracy must be from a third party and reputably published in order to be included in this table.  
 	- If many different published accuracy values exist such as accuracy values at different time-steps, then only the most relevant values are included in the table.
 	- Discerning readers may refer to the reference for additional information.
 - **PVLIB**:  The model implemented in the software is identical or very nearly identical to the implementation in pvlib.
+   
 
-## Contributing
-The table is open source and any user or software company can submit a pull request to include their information in this list.  
-
-- Rules for contribution:
-	- If a free reference exists for the underlying model, please include the PDF in a folder that matches the model category.
-	- If no reference exists (especially for proprietary software algorithms) then the best known reference is provided in the "_Notes_" markdown file instead.   
-
-
-
-
+## Table
 |  |  | **PlantPredict** |  |  |  | **PVSyst** |  |  |  |
 | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- |
 | **Category** | **Model_Type** | **Model** | **Metric** | **Accuracy** | **PVLIB** | **Model** | **Metric** | **Accuracy** | **PVLIB** |
@@ -66,8 +59,13 @@ The table is open source and any user or software company can submit a pull requ
 |  | Air Pressure for Altitude Correction of Inverters | Yes |  |  |  | No |  |  | &#9744; |
 |  | Transformer | McCann Lawrence |  |  |  | Proprietary |  |  |  |
 |  | Wiring | % at STC |  |  |  | Ohmic |  |  |  |
+## Contributing
+The table is open source and any user or software company can submit a pull request to include their information in this list.  
 
-# Contributions
+- Rules for contribution:
+	- If a free reference exists for the underlying model, please include the PDF in a folder that matches the model category.
+	- If no reference exists (especially for proprietary software algorithms) then the best known reference is provided in the "_Notes_" markdown file instead.
+### Contributors
 - Kurt Rhee
 - Renn Darawali
 
