@@ -19,19 +19,18 @@ Accuracy is presented in terms of mean bias difference (MBD), root mean squared 
 |  | Wind Stow | None |  |  | Proprietary |  |  |
 | Irradiance | Decomposition | Dirint | - MBD: -3 W/m<sup>2</sup><br>- RMSD: 74 W/m<sup>2</sup> | &#9745; | Erbs | - MBD:  -17 W/m<sup>2</sup><br>- RMSD: 88 W/m<sup>2</sup> | &#9745; |
 |  | Transposition | Perez w/ coefficients | - MBD: -1%<br>- RMSD: 8% | &#9745; | Perez w/out coefficients | - MBD: -1%<br>- RMSD: 8% | &#9745; |
-|  | Retro-Transposition | GTI-Dirint  | - MBD: 0.0 W/m<sup>2</sup><br>- RMSD: 6.4 W/m<sup>2</sup>  | &#9745; | Reverse Hay | - MBD: Unknown<br>- RMSD: Unknown |  |
+|  | Retro-Transposition | GTI-Dirint | - MBD: 0.0 W/m<sup>2</sup><br>- RMSD: 6.4 W/m<sup>2</sup> | &#9745; | Reverse Hay | - MBD: Unknown<br>- RMSD: Unknown |  |
 | Optical | IAM | Physical |  | &#9745; | Fresnel |  |  |
 |  | Soiling | Time-Step Level |  |  | Monthly |  |  |
 |  | Horizon Shading (Far Shading) | Sub-TimeStep |  |  |  |  |  |
 |  | Near Shading | Polygon Clipping |  |  | Polygon Clipping |  |  |
 |  | Bifacial | NREL BifacialVF |  |  | Proprietary |  |  |
 | Spectral | Relative_Humidity from Dew_Point | August-Roche-Magnus |  |  | None | N/A |  |
-|  | Precipitable_Water from Relative_Humidity |  |  |  |  |  |  |
+|  | Precipitable_Water from Relative_Humidity | No Name |  |  | No Name |  |  |
 |  | c-Si | First Solar v2.0 |  | &#9745; | Crest |  |  |
 |  | a-Si | First Solar v2.0 |  | &#9745; | Sandia |  | &#9745; |
 |  | Cd-Te | First Solar v2.0 |  | &#9745; | First Solar v2.0 |  | &#9745; |
 | DC | Cell Thermal Model | Modified Faiman |  |  | Modified Faiman |  |  |
-|  | Irradiance Level |  |  |  |  |  |  |
 |  | Diode Model | Single Diode |  |  | Single Diode |  |  |
 |  | Mismatch | Simple Statistical |  |  | Detailed |  |  |
 |  | Wiring | % at STC |  |  | Ohmic |  |  |
@@ -39,7 +38,7 @@ Accuracy is presented in terms of mean bias difference (MBD), root mean squared 
 | AC | Inverter Off MPP | Proprietary |  |  | Proprietary |  |  |
 |  | Inverter Efficiency | Sandia |  | &#9745; | Quadratic Interpolation |  |  |
 |  | Air Pressure for Altitude Correction of Inverters | Yes |  |  | No |  | &#9744; |
-|  | Transformer |  |  |  |  |  |  |
+|  | Transformer | McCann Lawrence |  |  | Proprietary |  |  |
 |  | Wiring | % at STC |  |  | Ohmic |  |  |
 
 # Acknowledgements

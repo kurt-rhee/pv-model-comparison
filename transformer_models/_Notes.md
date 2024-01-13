@@ -1,0 +1,4 @@
+- **PlantPredict**
+	- Model:  McCann Lawrence
+	- Reference:
+		- https://terabase.atlassian.net/servicedesk/customer/portal/3/article/1292304413
