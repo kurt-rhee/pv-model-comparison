@@ -7,8 +7,19 @@ The following table is a comparison of the underlying models used in different s
 - **Category**:  A grouping of models that relate to a specific folder in the repository structure
 - **Model_Type**:  The type of model being described in the table
 - **Model**:  The name of the model used by a given performance modeling software
-- **Metric**:  Accuracy is presented in terms of mean bias difference (MBD), root mean squared difference (RMSD), standard deviation (SD), R squared (R2) or Uncertainty (U) depending on what is available in the literature.
-- **Accuracy**:  If an accuracy value is present in the table, then the accompanying publication is included in the repository folder structure.  Published accuracy must be from a third party and reputably published in order to be included in this table.  If many different published accuracy values exist such as accuracy values at different time-steps, then only the most relevant values are included in the table.  Discerning readers may refer to the reference for additional information.
+- **Metric**:  Accuracy is presented in terms of the following metrics depending on what is stated in the cited paper:
+	- mean bias difference (MBD),
+	- root mean squared difference (RMSD),
+	- maximum difference (MD),
+	- standard deviation (SD),
+	- R squared (R2)
+	- Uncertainty (U)
+	- Model is precise (-)
+- **Accuracy**:  
+	- If an accuracy value is present in the table, then the accompanying publication is included in the repository folder structure.  
+	- Published accuracy must be from a third party and reputably published in order to be included in this table.  
+	- If many different published accuracy values exist such as accuracy values at different time-steps, then only the most relevant values are included in the table.
+	- Discerning readers may refer to the reference for additional information.
 - **PVLIB**:  The model implemented in the software is identical or very nearly identical to the implementation in pvlib.
 
 ## Contributing
@@ -24,12 +35,12 @@ The table is open source and any user or software company can submit a pull requ
 |  |  | **PlantPredict** |  |  |  | **PVSyst** |  |  |  |
 | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- |
 | **Category** | **Model_Type** | **Model** | **Metric** | **Accuracy** | **PVLIB** | **Model** | **Metric** | **Accuracy** | **PVLIB** |
-| Solar_Position_Algorithm | Solar_Position_Algorithm | NREL | U | 0.0003&deg; | &#9745; | Proprietary |  | - U:  0.08&deg; |  |
-| Time Series | Minimum Time Step | 1 minute |  |  |  | 1 hour |  |  |  |
+| Solar_Position_Algorithm | Solar_Position_Algorithm | NREL | U | 0.0003&deg; | &#9745; | Proprietary | U | 0.08&deg; |  |
+| Time Series | Minimum Time Step | 1 minute | MD | ~< 0.4% |  | 1 hour | MD | ~< 1.8% |  |
 | Tracking | Astronomical Tracking | Marion & Dobos | - | - | &#9745; | Proprietary | - | - |  |
 |  | Slope Aware Backtracking | Anderson & Mikofski | - | - | &#9745; | Proprietary | - | - |  |
 |  | Terrain Aware Backtracking | None |  |  |  | None |  |  |  |
-|  | Custom Backtracking | Yes |  |  |  | No |  |  |  |
+|  | Custom Backtracking | Yes | - | - |  | No | - | - |  |
 |  | Diffuse Optimization | 3 Parameter |  |  |  | 1 Parameter |  |  |  |
 |  | Wind Stow | None |  |  |  | Fixed Threshold |  |  |  |
 | Irradiance | Decomposition | Dirint | MBD<br>RMSD | -3 W/m<sup>2</sup><br>74 W/m<sup>2</sup> | &#9745; | Erbs | MBD<br>RMSD | -17 W/m<sup>2</sup><br>88 W/m<sup>2</sup> | &#9745; |
@@ -37,7 +48,7 @@ The table is open source and any user or software company can submit a pull requ
 |  | Retro-Transposition | GTI-Dirint | MBD<br>RMSD | 0.0 W/m<sup>2</sup><br>6.4 W/m<sup>2</sup> | &#9745; | Reverse Hay | MBD<br>RMSD | Unknown<br>Unknown |  |
 | Optical | IAM | Physical |  |  | &#9745; | Fresnel |  |  |  |
 |  | Soiling | Time-Step Level |  |  |  | Monthly |  |  |  |
-|  | Horizon Shading (Far Shading) | Sub-TimeStep |  |  |  |  |  |  |  |
+|  | Horizon Shading (Far Shading) | Sub-TimeStep |  |  |  | 1 hour |  |  |  |
 |  | 3D Near Shading | Polygon Clipping | - | - |  | Polygon Clipping | - | - |  |
 |  | Bifacial | NREL BifacialVF |  |  | &#9745; | Proprietary |  |  |  |
 | Spectral | Relative_Humidity from Dew_Point | August-Roche-Magnus |  |  |  | None |  | N/A |  |
