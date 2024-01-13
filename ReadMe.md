@@ -26,7 +26,7 @@ Accuracy is presented in terms of mean bias difference (MBD), root mean squared 
 |  | Near Shading | Polygon Clipping |  |  | Polygon Clipping |  |  |
 |  | Bifacial | NREL BifacialVF |  |  | Proprietary |  |  |
 | Spectral | Relative_Humidity from Dew_Point | August-Roche-Magnus |  |  | None | N/A |  |
-|  | Precipitable_Water from Relative_Humidity | No Name |  |  | No Name |  |  |
+|  | Precipitable_Water from Relative_Humidity | No Name |  |  | Gueymard 1994 |  |  |
 |  | c-Si | First Solar v2.0 |  | &#9745; | Crest |  |  |
 |  | a-Si | First Solar v2.0 |  | &#9745; | Sandia |  | &#9745; |
 |  | Cd-Te | First Solar v2.0 |  | &#9745; | First Solar v2.0 |  | &#9745; |
