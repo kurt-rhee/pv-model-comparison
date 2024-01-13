@@ -43,7 +43,7 @@ The following table is a comparison of the underlying models used in different s
 |  | Soiling | Time-Step Level |  |  |  | Monthly |  |  |  |
 |  | Horizon Shading (Far Shading) | Sub-TimeStep |  |  |  | 1 hour |  |  |  |
 |  | 3D Near Shading | Polygon Clipping | - | - |  | Polygon Clipping | - | - |  |
-|  | Bifacial | NREL BifacialVF |  |  | &#9745; | Proprietary |  |  |  |
+|  | Bifacial | NREL BifacialVF | U | <0.5% | &#9745; | Proprietary | U | <0.5% |  |
 | Spectral | Relative_Humidity from Dew_Point | August-Roche-Magnus |  |  |  | None |  | N/A |  |
 |  | Precipitable_Water from Relative_Humidity | Gueymard94 | MxD | <20% | &#9745; | Gueymard94 | MxD | <20% | &#9745; |
 |  | c-Si | First Solar v2.0 |  |  | &#9745; | Crest |  |  |  |
