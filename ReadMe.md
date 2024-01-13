@@ -16,7 +16,7 @@ Accuracy is presented in terms of mean bias difference (MBD), root mean squared 
 |  | Terrain Aware Backtracking | None |  |  | None |  |  |
 |  | Custom Backtracking | Yes |  |  | No |  |  |
 |  | Diffuse Optimization | 3 Parameter |  |  | 1 Parameter |  |  |
-|  | Wind Stow | None |  |  | Proprietary |  |  |
+|  | Wind Stow | None |  |  | Fixed Threshold |  |  |
 | Irradiance | Decomposition | Dirint | - MBD: -3 W/m<sup>2</sup><br>- RMSD: 74 W/m<sup>2</sup> | &#9745; | Erbs | - MBD:  -17 W/m<sup>2</sup><br>- RMSD: 88 W/m<sup>2</sup> | &#9745; |
 |  | Transposition | Perez w/ coefficients | - MBD: -1%<br>- RMSD: 8% | &#9745; | Perez w/out coefficients | - MBD: -1%<br>- RMSD: 8% | &#9745; |
 |  | Retro-Transposition | GTI-Dirint | - MBD: 0.0 W/m<sup>2</sup><br>- RMSD: 6.4 W/m<sup>2</sup> | &#9745; | Reverse Hay | - MBD: Unknown<br>- RMSD: Unknown |  |
@@ -24,9 +24,9 @@ Accuracy is presented in terms of mean bias difference (MBD), root mean squared 
 |  | Soiling | Time-Step Level |  |  | Monthly |  |  |
 |  | Horizon Shading (Far Shading) | Sub-TimeStep |  |  |  |  |  |
 |  | Near Shading | Polygon Clipping |  |  | Polygon Clipping |  |  |
-|  | Bifacial | NREL BifacialVF |  |  | Proprietary |  |  |
+|  | Bifacial | NREL BifacialVF |  | &#9745; | Proprietary |  |  |
 | Spectral | Relative_Humidity from Dew_Point | August-Roche-Magnus |  |  | None | N/A |  |
-|  | Precipitable_Water from Relative_Humidity | No Name |  |  | Gueymard 1994 |  |  |
+|  | Precipitable_Water from Relative_Humidity | Gueymard94 |  | &#9745; | Gueymard94 |  | &#9745; |
 |  | c-Si | First Solar v2.0 |  | &#9745; | Crest |  |  |
 |  | a-Si | First Solar v2.0 |  | &#9745; | Sandia |  | &#9745; |
 |  | Cd-Te | First Solar v2.0 |  | &#9745; | First Solar v2.0 |  | &#9745; |
