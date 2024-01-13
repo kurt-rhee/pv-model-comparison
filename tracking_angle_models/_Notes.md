@@ -1,7 +1,7 @@
 
-|  | PlantPredict |  |  |
-| ---- | ---- | ---- | ---- |
+## PlantPredict
 |  | **Model** | **Sources** | **Notes** |
+| ---- | ---- | ---- | ---- |
 | Astronomical | Marion and Dobos | See folder |  |
 | 2D Backtracking | Anderson and Mikofski | See folder |  |
 | Sloped Backtracking | Anderson and Mikofski | See folder |  |
@@ -9,6 +9,7 @@
 | Custom Backtracking | Yes | https://terabase.atlassian.net/servicedesk/customer/portal/3/article/1304395902 |  |
 | Diffuse Optimization | 3 Parameter | https://terabase.atlassian.net/servicedesk/customer/portal/3/article/1260060675 |  |
 
+## PVSyst
 |  | PVSyst |  |  |
 | ---- | ---- | ---- | ---- |
 |  | **Model** | **Sources** | **Notes** |
