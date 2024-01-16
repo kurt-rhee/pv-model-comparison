@@ -30,6 +30,9 @@ The following table is a comparison of the underlying models used in different s
 | **Category** | **Model_Type** | **Model** | **Metric** | **Accuracy** | **PVLIB** | **Model** | **Metric** | **Accuracy** | **PVLIB** |
 | Solar_Position_Algorithm | Solar_Position_Algorithm | NREL | U | 0.0003&deg; | &#9745; | Proprietary | U | 0.08&deg; |  |
 | Time Series | Minimum Time Step | 1 minute | MxD | ~< 0.4% |  | 1 hour | MxD | ~< 1.8% |  |
+| Fixed Racking | Fixed Tilt | Yes | - | - |  | Yes | - | - |  |
+|  | East West | No | - | - |  | Yes | - | - |  |
+|  | Seasonal Tilt | Yes | - | - |  | Unknown | - | - |  |
 | Tracking | Astronomical Tracking | Marion & Dobos | - | - | &#9745; | Proprietary | - | - |  |
 |  | Slope Aware Backtracking | Anderson & Mikofski | - | - | &#9745; | Proprietary | - | - |  |
 |  | Terrain Aware Backtracking | None |  |  |  | None |  |  |  |
