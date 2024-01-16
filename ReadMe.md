@@ -60,7 +60,8 @@ The following table is a comparison of the underlying models used in different s
 |  | Degradation | % |  |  |  | % |  |  |  |
 | AC | Inverter Off MPP | Proprietary |  |  |  | Proprietary |  |  |  |
 |  | Inverter Efficiency | Sandia |  |  | &#9745; | Quadratic Interpolation |  |  |  |
-|  | Air Pressure for Altitude Correction of Inverters | Yes |  |  |  | No |  |  | &#9744; |
+|  | Air Pressure for Altitude Correction of Inverters | Yes | - | - |  | No | - | - | &#9744; |
+|  | Aux Losses | % loss | - | - |  | W loss | - | - |  |
 |  | Transformer | McCann Lawrence |  |  |  | Proprietary |  |  |  |
 |  | Wiring | % at STC |  |  |  | Ohmic |  |  |  |
 
