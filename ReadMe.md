@@ -42,11 +42,12 @@ The following table is a comparison of the underlying models used in different s
 | Irradiance | Decomposition | Dirint | MBD<br>RMSD | -3 W/m<sup>2</sup><br>74 W/m<sup>2</sup> | &#9745; | Erbs | MBD<br>RMSD | -17 W/m<sup>2</sup><br>88 W/m<sup>2</sup> | &#9745; |
 |  | Transposition | Perez w/ coefficients | MBD<br>RMSD | -1%<br>8% | &#9745; | Perez w/out coefficients | MBD<br>RMSD | -1%<br>8% | &#9745; |
 |  | Retro-Transposition | GTI-Dirint | MBD<br>RMSD | 0.0 W/m<sup>2</sup><br>6.4 W/m<sup>2</sup> | &#9745; | Reverse Hay | MBD<br>RMSD | Unknown<br>Unknown |  |
+|  | Reflection on Front Side | Yes |  |  |  | Yes |  |  |  |
 | Optical | IAM | Physical |  |  | &#9745; | Fresnel |  |  |  |
 |  | Soiling | Time-Step Level |  |  |  | Monthly |  |  |  |
 |  | Horizon Shading (Far Shading) | Sub-TimeStep |  |  |  | 1 hour |  |  |  |
 |  | 3D Near Shading | Polygon Clipping | - | - |  | Polygon Clipping | - | - |  |
-|  | Bifacial | NREL BifacialVF | U | <0.5% | &#9745; | Proprietary | U | <0.5% |  |
+|  | Bifacial | NREL BifacialVF | U | <2% | &#9745; | Proprietary | U | <2% |  |
 | Spectral | Relative_Humidity from Dew_Point | August-Roche-Magnus |  |  |  | None |  | N/A |  |
 |  | Precipitable_Water from Relative_Humidity | Gueymard94 | MxD | <20% | &#9745; | Gueymard94 | MxD | <20% | &#9745; |
 |  | c-Si | First Solar v2.0 |  |  | &#9745; | Crest |  |  |  |
@@ -62,6 +63,7 @@ The following table is a comparison of the underlying models used in different s
 |  | Air Pressure for Altitude Correction of Inverters | Yes |  |  |  | No |  |  | &#9744; |
 |  | Transformer | McCann Lawrence |  |  |  | Proprietary |  |  |  |
 |  | Wiring | % at STC |  |  |  | Ohmic |  |  |  |
+
 ## Contributing
 The table is open source and any user or software company can submit a pull request to include their information in this list.  
 
