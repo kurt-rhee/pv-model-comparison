@@ -74,6 +74,8 @@ The table is open source and any user or software company can submit a pull requ
 ### Contributors
 - Kurt Rhee
 - Renn Darawali
+- James Alfi
+- Paul Wolfersdorff
 
 # References
 
